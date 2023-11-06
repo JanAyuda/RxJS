@@ -2,15 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit</title>
+    <title>Sum sum!</title>
     <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.js"></script>
+    <script type="module" src="/src/components/index"></script>
   </head>
+  
   <body>
-    <my-element>
-      <h1>Vite + Lit</h1>
-    </my-element>
+    <div>
+      <my-element id="1"></my-element>
+      <h2>+</h2>
+      <my-element id="2"></my-element> 
+      <my-addition></my-addition>
+    </div>
   </body>
 </html>

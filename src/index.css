@@ -14,12 +14,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
+div {
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  inline-size: fit-content;
 }
 
 @media (prefers-color-scheme: light) {
