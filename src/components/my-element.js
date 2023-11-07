@@ -20,7 +20,7 @@ export class MyElement extends LitElement {
 
   connectedCallback() {
     super.connectedCallback()
-    DataManager.updateData(this.id, this.count)
+    dataManager.updateData(this.id, this.count)
   }
 
   render() {
