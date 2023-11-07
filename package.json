@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "lit": "^2.7.6",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "rxjs-marbles": "^7.0.1"
   },
   "devDependencies": {
     "vite": "^4.4.5"
