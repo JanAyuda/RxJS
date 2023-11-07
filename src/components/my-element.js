@@ -56,7 +56,7 @@ export class MyElement extends LitElement {
   static get styles() {
     return css`
       .error-message {
-        color: red;
+        color: var(--my-custom-color);
       }
       .margin {
         margin-left: 12px;
