@@ -17,9 +17,9 @@ export class MyAddition extends LitElement {
   connectedCallback() {
     super.connectedCallback()
     this.observer = dataManager.subscribeToData(
-      counterMap => {
+      map => {
         this.total = 0;
-        counterMap.forEach((value) => {
+        map.forEach((value) => {
           this.total += value
         })
       }
